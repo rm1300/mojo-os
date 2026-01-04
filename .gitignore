@@ -1,6 +1,8 @@
 # pixi environments
 .pixi/
 !.pixi/config.toml
+pixi.toml
+pixi.lock
 
 kgen.trace.json.*
 
