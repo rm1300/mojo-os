@@ -1,4 +1,4 @@
-MOJO        := pixi run mojo build
+MOJO         := pixi run mojo build
 MOJO_TRIPLE  := i686-none-elf
 MOJOFLAGS    := --emit object --target-triple=$(MOJO_TRIPLE) --target-cpu=i686
 
