@@ -12,7 +12,7 @@ ASM_OBJECTS  := $(ASM_SOURCES:.s=.o)
 OBJECTS      := $(MOJO_OBJECTS) $(ASM_OBJECTS)
 
 LD           := i686-elf-ld
-LDFLAGS      := -T linker.ld
+LDFLAGS      := -T linker.ld --no-warn-rwx-segments --no-warn-execstack
 
 AS           := i686-elf-as
 
